@@ -54,7 +54,6 @@ impl Entry {
             || self.0.contains_item(self.1.end)
             || self.1.contains_item(self.0.start)
             || self.1.contains_item(self.0.end)
-
     }
 }
 
